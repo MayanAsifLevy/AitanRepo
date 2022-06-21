@@ -28,7 +28,7 @@ def get_growers():
         return jsonify(data)
 
 
-# @app.route('/users', methods= ['POST'])
+#@app.route('/users', methods= ['POST'])
 # def add_user():
 #         data = request.json
 #         users_bl.add_user(data)
