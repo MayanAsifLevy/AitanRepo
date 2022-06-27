@@ -19,7 +19,7 @@ class GrowersDAL:
         growers_list=[]
         cursor = conn.cursor()
 
-        cursor.execute("SELECT * FROM growers")
+        cursor.execute("SELECT * FROM 1growers")
 
 
         for row in cursor:
